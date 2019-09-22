@@ -5,6 +5,7 @@ import Login from './app/login/index'
 import Register from './app/register/index'
 import SetTarget from './app/setTarget/index'
 import Home from './app/home/index'
+import AppSetting from './app/appsetting/index'
 const AppNavigator = createStackNavigator(
   {
     LoginScreen:{
@@ -30,6 +31,13 @@ const AppNavigator = createStackNavigator(
     },
     HomeScreen:{
       screen: Home,
+      navigationOptions: {
+        header: null,
+        gesturesEnabled: false,
+      }
+    },
+    AppSettingScreen:{
+      screen: AppSetting,
       navigationOptions: {
         header: null,
         gesturesEnabled: false,

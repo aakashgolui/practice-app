@@ -10,7 +10,7 @@ class Home extends React.Component {
                     <View style={styles.head_center}>
                         <Image source={require('../../assets/logo.png')} style={styles.head_logo} />
                     </View>
-                    <TouchableOpacity style={styles.head_right} >
+                    <TouchableOpacity style={styles.head_right} onPress={()=>this.props.navigation.navigate('AppSettingScreen')}>
                         <Text style={{textAlign:'center', color:'#fff', fontSize:13, fontWeight:'500'}}>Setting</Text>
                     </TouchableOpacity> 
                 </View>

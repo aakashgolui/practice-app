@@ -130,6 +130,37 @@ const styles = StyleSheet.create({
         fontWeight:'500',
         color:'#707070',
         marginTop:10
+    },
+    goProBtn:{
+        backgroundColor:'#18ce96',
+        height: window.height * 0.09,
+        justifyContent:'center',
+        alignItems:'center',
+        borderRadius:5,
+        elevation:5
+    },
+    goProBtnText:{
+        fontSize:18,
+        fontWeight:'500',
+        color:'#fff'
+    },
+    setting_heading:{
+        color:'#999999',
+        fontSize:16,
+        fontWeight:'400',
+        textAlign:'center',
+        marginTop:15
+    },
+    setting_menu_container:{
+        height: window.height * 0.08,
+        justifyContent:'center',
+        alignItems:'center',
+    },
+    setting_menu_container_text:{
+        color:'#000',
+        fontSize:20,
+        fontWeight:'400',
+        marginTop:10
     }
 });
 

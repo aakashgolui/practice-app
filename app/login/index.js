@@ -10,7 +10,7 @@ class Login extends React.Component {
                     <View style={styles.head_center}>
                         <Image source={require('../../assets/logo.png')} style={styles.head_logo} />
                     </View>
-                    <TouchableOpacity style={styles.head_right} onPress={()=>this.props.navigation.navigate('LoginScreen')} onPress={()=>this.props.navigation.navigate('RegisterScreen')}>
+                    <TouchableOpacity style={styles.head_right} onPress={()=>this.props.navigation.navigate('RegisterScreen')}>
                         <Text style={{textAlign:'center', color:'#fff', fontSize:13, fontWeight:'500'}}>New Account</Text>
                     </TouchableOpacity> 
                 </View>
